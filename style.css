@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(180, 6, 6);
+    color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}   
+.heading{
+    text-align: center;   
+}
+#tee{
+    text-align: center;   
+}
+#nor{
+    position: relative;
+    left: 5px;
+    right: 5px;
+    background-repeat: no-repeat repeat;
+    background-blend-mode: lighten;  
+} 
+#pix2{
+    position:absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 180px; 
+    padding: 0px;   
+}
+.tee{
+    position: absolute;
+    bottom: 1px;
+    left: 30px;
+    right: 30px; 
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+ul {
+    width: 70%;
+    margin: auto;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 00;
+}
+.last{
+    text-align: left;
+ }
