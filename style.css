@@ -1,45 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+*{margin: o;
+    padding: 0;
+}
 body{
-    background-color: rgb(180, 6, 6);
-    color: white;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-}   
-.heading{
-    text-align: center;   
+    font-family: 'poppins', sans-serif;
 }
-#tee{
-    text-align: center;   
+.container{
+    background-color: white;
+    padding: 25px 7px;
 }
-#nor{
-    position: relative;
-    left: 5px;
-    right: 5px;
-    background-repeat: no-repeat repeat;
-    background-blend-mode: lighten;  
-} 
-#pix2{
-    position:absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 180px; 
-    padding: 0px;   
+main{
+    background-color: rgb(138, 7, 7);
+    padding: 10px 15px;
+    border-radius: 5px;
 }
-.tee{
-    position: absolute;
-    bottom: 1px;
-    left: 30px;
-    right: 30px; 
+.bor{
+    color: #fff;
+    font-size: 4rem;
     text-align: center;
-    font-size: larger;
-    font-weight: bold;
 }
-ul {
-    width: 70%;
-    margin: auto;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-weight: 00;
+.bill{
+    color: #fff;
+    text-align: center;
 }
-.last{
-    text-align: left;
- }
+figcaption{
+    color: #fff;
+}
+figure{
+    text-align: center;
+}
+.img{
+    background-color: rgb(138, 7, 7);;
+background-image: url("pixxx.jpg");
+background-size: cover;
+background-position: center;
+background-blend-mode: overlay;
+padding: 5px;
+}
+#tribute-info{
+    width: 550px;
+    margin: 20px auto;
+}
+#headline{
+
+    text-align: center; 
+}
+ul{
+    text-align: justify;
+}
+.down{
+    text-align: center;
+}
+blockquote{
+    margin: 2opx 0pt;
+}
